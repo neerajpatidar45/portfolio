@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
-import Skills from "./pages/Skills";
-import Contact from "./pages/Contact";
+import Home from "./Home";
+import About from "./About";
+import Projects from "./Projects";
+import Skills from "./Skills";
+import Contact from "./Contact";
 
 function App() {
   return (
@@ -25,4 +25,5 @@ function App() {
 }
 
 export default App;
+
 
